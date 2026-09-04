@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #DCEFF2;
+    color: #102A35;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+.font-serif-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-display-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Soft mist blue sticker transparent checkerboard pattern */
+.bg-checkerboard-mist {
+  background-color: #F0F8FA;
+  background-image: 
+    linear-gradient(45deg, #E2EFF2 25%, transparent 25%), 
+    linear-gradient(-45deg, #E2EFF2 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #E2EFF2 75%), 
+    linear-gradient(-45deg, transparent 75%, #E2EFF2 75%);
+  background-size: 14px 14px;
+  background-position: 0 0, 0 7px, 7px -7px, -7px 0px;
+}
+
+.bg-checkerboard-light {
+  background-color: #FAF9F6;
+  background-image: 
+    linear-gradient(45deg, #ECE9E2 25%, transparent 25%), 
+    linear-gradient(-45deg, #ECE9E2 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #ECE9E2 75%), 
+    linear-gradient(-45deg, transparent 75%, #ECE9E2 75%);
+  background-size: 14px 14px;
+  background-position: 0 0, 0 7px, 7px -7px, -7px 0px;
+}
+
+.bg-checkerboard-dark {
+  background-color: #102A35;
+  background-image: 
+    linear-gradient(45deg, #183C4A 25%, transparent 25%), 
+    linear-gradient(-45deg, #183C4A 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #183C4A 75%), 
+    linear-gradient(-45deg, transparent 75%, #183C4A 75%);
+  background-size: 14px 14px;
+  background-position: 0 0, 0 7px, 7px -7px, -7px 0px;
+}
+
+/* Simulated WhatsApp chat wallpaper */
+.bg-whatsapp-preview {
+  background-color: #EFEAE2;
+  background-image: radial-gradient(#D5CEBE 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(63, 116, 124, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 42, 53, 0.5);
+}
+

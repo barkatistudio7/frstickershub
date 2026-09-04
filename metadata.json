@@ -1,0 +1,7 @@
+{
+  "name": "FR Stickers Hub",
+  "description": "Discover, download, and share trending WhatsApp stickers, emoji packs, PNGs, and stylish font collections with live font preview and admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
